@@ -1,0 +1,90 @@
+
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
+
+html,body {
+	position: relative;
+	min-height: 100vh;
+	background-color: #E1E8EE;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+}
+
+.form-structor {
+	background-color: #222;
+	border-radius: 15px;
+	height: 550px;
+	width: 350px;
+	position: relative;
+	overflow: hidden;	
+    background-image: url('../images/un-paisaje-con-montanas-pixabay.jpeg');
+}
+.form-holder{
+    border-radius: 15px;
+    background-color: #fff;
+    overflow: hidden;
+    margin-top: 50px;
+    visibility: visible;
+
+}
+.form-title {
+    color: rgb(8, 0, 0);
+    font-size: 1.7em;
+    text-align: center;
+    
+}
+
+.signup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -60%);
+    width: 65%;
+    z-index: 5;
+
+}
+
+#show_password{ 
+
+    font-size: 12px;
+    float:right;
+   
+}
+.input {
+    border: 0;
+    outline: none;
+    box-shadow: none;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    padding: 8px 15px;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+    font-size: 12px;
+}
+
+.submit-btn {
+    background-color: rgba(0,0,0,0.4);
+    color: rgba(256,256,256,0.7);
+    border:0;
+    border-radius: 15px;
+    display: block;
+    margin: 15px auto; 
+    padding: 15px 45px;
+    width: 100%;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    visibility: visible;
+
+}
+
+span {
+    color: rgba(0,0,0,0.4);
+    visibility: hidden;
+
+}

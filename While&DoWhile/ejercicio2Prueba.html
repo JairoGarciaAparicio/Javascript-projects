@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Práctico</title>
+</head>
+
+<body>
+    <!--Numero perfectos del 1 al 100. Un número perfecto es un número natural que cumple que es igual a la suma de sus divisores propios (todos sus divisores excepto el propio número). Hacerlo con una estructura while-->
+    <script>
+        var num = 1;
+        
+        while (num <= 1000) {
+            var suma = 0;
+            for (let divisor = 1; divisor < num; divisor++) {
+                if(num%divisor==0){
+                    suma+=divisor;
+                }
+                
+            }
+            if(suma == num){
+                document.write("El número perfecto es: " + num + "<br>");
+
+            }
+            num++;
+        }
+    </script>
+</body>
+
+</html>

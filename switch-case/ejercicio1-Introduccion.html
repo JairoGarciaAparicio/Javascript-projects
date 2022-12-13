@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Case</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+    <h2>Identificar sexo: </h2>
+    <script>
+        var sexo=window.prompt('escribe tu género');
+        switch (sexo.toLocaleLowerCase()) { 
+            case 'hombre':
+                swal('Estas dentro del colectivo heterosexual o no');
+                break;
+            case 'mujer':
+                swal('Estas dentro del colectivo heterosexual');
+        
+            default: 
+                swal('Estas dentro de unos nuevos colectivos')
+                break;
+        }
+    </script>
+</body>
+</html>

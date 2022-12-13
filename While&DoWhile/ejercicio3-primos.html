@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de primos</title>
+</head>
+
+<body>
+    <!--busca el primer primo hasta el 20-->
+    <button type="text" name="numerosPrimos" onclick="primNum()" id="demo"></button>
+    <script>
+        function primNum() {
+            let numero = 1;
+            let isPrim = '';
+
+            while (numero <= 20) {
+
+                var sumaDivisor = 0;
+                for (let divisor = 1; divisor < numero; divisor++) {
+                    if (numero % divisor == 0) {
+                        sumaDivisor += divisor;
+                    }
+                }
+                if (sumaDivisor == 1) {
+                    isPrim = 'Is Primo Numero.';
+                    document.getElementById('demo').innerHTML +=
+                        numero + ' ' + isPrim + '<br>';
+
+                }
+
+                numero++;
+            }
+        }
+    </script>
+</body>
+
+</html>

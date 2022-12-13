@@ -1,0 +1,56 @@
+
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+  }
+
+  
+  .card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+   
+  #header {
+    height: 10px;
+    margin: 20px;
+    width: 958px;
+    clear: both;
+    position: relative;
+  }
+   
+  #logo {
+    background: transparent url(../images/PUFON.jpg) no-repeat;
+    float: left;
+  }
+  #logo a {
+    display: block;
+    text-indent: -999px;
+    height: 90px; 
+    width: 440px;
+    margin: none;
+  }
+  button:hover{
+        border-color:black;
+    
+  }
+  
+  .price{
+    color:green;
+  }
+
+  .dto{
+    color:green;    
+  }
+
+  .pantalla{    
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(1, 22, 22);
+    background-color: rgb(192, 196, 188);
+    background-size: 20px;
+    border-radius: 15px;
+    font-size: larger;
+  }
