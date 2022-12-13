@@ -1,0 +1,70 @@
+body {
+
+    background-image: url("https://miro.medium.com/max/798/0*hZVjtkEi1cBnGL9y.jpg");
+}
+
+header {
+    font-family: Verdana;
+    font-size: 50px;
+    font-weight: bolder;
+    color: yellow;
+    text-shadow: -4px -4px 4px #000, 4px 4px 4px #000, -4px 4px 4px #000, 4px -4px 4px #000;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+nav {
+    margin-left: 30px;
+    margin-top: 60px;
+    border-color: azure;
+    height: 510px;
+    width: 810px;
+    float: left;
+}
+
+section {
+    background-color: brown;
+    height: 500px;
+    width: 440px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 60px;
+    text-align: center;
+    font-family: Impact;
+    -webkit-text-stroke: 1px white;
+    font-size: 30px;
+}
+
+.article1 {
+    width: 400px;
+    height: 175px;
+    text-align: justify;
+    font-family: Times;
+    -webkit-text-stroke: 0;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.article2 {
+    width: 400px;
+    height: 175px;
+    text-align: justify;
+    font-family: Times;
+    -webkit-text-stroke: 0;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: -30px;
+}
+
+.article3 {
+    margin-left: 0px;
+    margin-top: -30px;
+}
+a{
+font-size: 14px;
+font-family: Arial;
+-webkit-text-stroke: 0;
+color:blue;
+font-weight: bold;
+}
