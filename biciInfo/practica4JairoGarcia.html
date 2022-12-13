@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <link href="biciInfo.css" rel="stylesheet" type="text/css">
+    <title>P4</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+                    $("button").click(function () {
+                        alert("Votado!");
+                        });
+                    });
+    </script>
+</head>
+
+<body>
+
+
+    <body>
+        <label for="modoOscuro" class="botonModoOscuro">
+            <input id="modoOscuro" value="DarkMode" type="button"
+                onclick="document.documentElement.classList.toggle('modoOscuro')" />
+        </label>
+
+        <h1>BicinfO</h1>
+
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Noticias</a></li>
+            <li><a href="#">Usuarios</a></li>
+        </ul>
+
+        <div class="contenedor">
+            <div class="noticia">
+                <img src="https://trek.scene7.com/is/image/TrekBicycleProducts/EmondaSL6DiscPro_21_32562_A_Portrait?wid=1200"
+                    alt="" />
+
+                <p><b>Trek Emonda:</b> Así ha evolucionado la bicicleta más ligera y aerodinámica de Trek</p>
+
+                <button type="button" class="btn btn-warning">VOTAR</button>
+
+            </div>
+            <div class="noticia">
+                <img src="https://i2.wp.com/solobici.es/wp-content/uploads/2021/02/time_1.jpg?resize=360%2C240&ssl=1"
+                    alt="" />
+                <p><b>SRAM</b> adquiere la marca de pedales Time Sport</p>
+                <button type="button" class="btn btn-warning">VOTAR</button>
+            </div>
+            <div class="noticia">
+                <img src="https://i1.wp.com/solobici.es/wp-content/uploads/2021/03/maillottitan1_1.jpg?fit=1200%2C841&ssl=1"
+                    alt="" />
+                <p>Presentados los maillots oficiales de la Titan Desert 2021</p>
+                <button type="button" class="btn btn-warning">VOTAR</button>
+            </div>
+            <div class="noticia">
+                <img src="https://i1.wp.com/solobici.es/wp-content/uploads/2015/10/0009-2011-10-25-damien-spag.jpg?fit=1024%2C564&ssl=1"
+                    alt="" />
+                <p>Cómo entrenar para bajar más rápido</p>
+                <button type="button" class="btn btn-warning">VOTAR</button>
+            </div>
+
+            <div class="noticia">
+                <img src="http://esmtb.com/wp-content/uploads/2015/12/canyon_4.jpg" alt="" />
+                <p>
+                    Ruedas de palos o bastones en el MTB, ¿qué ventajas aportan?</p>
+                <button type="button" class="btn btn-warning">VOTAR</button>
+            </div>
+            <div class="noticia">
+                <img src="https://cdn.brujulabike.com/media/1676/conversions/caida2-620.jpg" alt="" />
+                <p>Cómo revisar la bici después de una caída</p>
+                <button type="button" class="btn btn-warning">VOTAR</button>
+            </div>
+        </div>
+
+        <div class="perfil">
+            <h2>Iniciar sesión con tu cuenta</h2>
+
+            <form>
+                <fieldset>
+                    <legend>Datos</legend>
+                    <b>Nombre</b> <br><input type="text" /><br />
+                    <b>Contraseña</b> <br><input type="password" /><br />
+                    <br>
+                    <input type="submit" name='iniciar' value="iniciar"/>
+                </fieldset>
+            </form>
+        </div>
+
+        <div class="perfil">
+            <h2>¿No tienes una cuenta? ¡Regístrate!</h2>
+
+            <form>
+                <fieldset>
+                    <legend>Datos</legend>
+                    <b>Nombre</b> <br><input type="text" /><br />
+                    <b>Apellidos</b><br><input type="text" /><br />
+                    <b>E-mail</b> <br><input type="email" /><br />
+                    <b>Contraseña</b> <br><input type="password" /><br />
+                    <b>Fecha de nacimiento</b><br><input type="date" /><br />
+                    <br>
+                    <input type="submit" name='registrar' value="registrar"/>
+                </fieldset>
+            </form>
+        </div>
+
+        <footer class="pieDePagina">Jairo García Aparicio , 2021</footer>
+    </body>
+
+</html>

@@ -1,0 +1,155 @@
+body {
+    background-image: url("https://i.imgur.com/SDQ3EAY.jpg");
+    background-color: aliceblue;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+
+/* --- MODO OSCURO --- */
+.botonModoOscuro {
+    margin-top: -70px;
+    float: right;
+    margin-right: 10px;
+    background: white;
+}
+
+html.modoOscuro {
+    filter: invert(100%);
+}
+
+html.modoOscuro img {
+    filter: invert(100%);
+}
+
+html.modoOscuro button {
+    filter: invert(100%);
+}
+
+/* --- ENCABEZADO --- */
+h1 {
+    font-size: 68pt;
+    text-align: center;
+    font-family: fantasy;
+    color: rgb(255, 196, 0);
+    margin-top: 80px;
+
+}
+
+/* --- BARRA DE NAVEGACIÓN --- */
+ul {
+    margin-top: 70px;
+    list-style-type: none;
+    overflow: hidden;
+    background-image: url("huella.jpg");
+
+}
+
+li {
+    float: left;
+    font-size: 12pt;
+    text-align: center;
+    font-family: fantasy;
+
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 80px;
+    text-decoration: none;
+
+}
+
+li a:hover {
+    background-color: #111;
+    display: block;
+    color: rgb(255, 196, 0);
+    text-align: center;
+    padding: 20px 80px;
+    text-decoration: none;
+
+}
+
+/* --- NOTICIAS --- */
+
+.contenedor {
+    grid-template-columns: 33% 33% 33%;
+    /* columnas de 1 tercio*/
+    background-color: black;
+    padding: 60px;
+    display: grid;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.perfil {
+
+    background-image: url(https://www.10wallpaper.com/wallpaper/1366x768/1608/Sea_Rocks_Stones_Dawn_Coast-Nature_HD_Wallpaper_1366x768.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    padding: 60px;
+    border: 2px solid black;
+    display: grid;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    grid-template-columns: 33% 33% 33%;
+    color: black;
+    font-family: sans-serif;
+}
+
+.noticia {
+    width: 290px;
+    height: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    line-height: normal;
+    font-size: 14pt;
+}
+
+p {
+    color: rgb(233, 198, 85);
+    font-family: Cambria;
+    margin-top: 15px;
+}
+
+button:active {
+    background: green;
+    font-family: Cambria;
+}
+
+img {
+    border-radius: 5mm;
+    width: 290px;
+    height: 165px;
+    -webkit-box-shadow: 0 10px 6px -6px rgb(233, 198, 85);
+    -moz-box-shadow: 0 10px 6px -6px rgb(233, 198, 85);
+    box-shadow: 0 -10px -6px -8px rgb(233, 198, 85);
+    border: 1px solid rgb(233, 198, 85);
+
+  
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+@media only screen and (min-width: 300px) {
+.img{width:3%;}
+
+
+
+}
+.pieDePagina {
+    font-size: 12pt;
+    background-color: black;
+    text-align: center;
+    color: rgb(255, 196, 0);
+    font-family: sans-serif;
+}
