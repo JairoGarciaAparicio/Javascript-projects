@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <title>Prueba de anidacion</title>
+  </head>
+  <body>
+    <script>
+      var numero = parseInt(window.prompt("Introduce un numero"));
+      if (numero % 2 == 0) {
+        swal("Este paquete se envia al almacen");
+      } else if (numero % 3 == 0) {
+        swal("Este paquete se envia a desperdicio");
+      } else {
+        swal("Este paquete se envia al DPTO Calidad");
+      }
+    </script>
+  </body>
+</html>

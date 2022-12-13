@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversiones</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <script>
+        var datos = window.prompt("Escribe un numero");
+    /*
+    Coversion parseFloat, convertir el argumento, cadena que devolverá un número
+    flotante. Si el primer caracter no se puede convertir a numero, parseFloat nos 
+    devolverá un (NaN)not a number. Siempre será en valor numérico decialm.
+    */
+        var float = parseFloat(datos);
+    /*
+    Conversion parseInt, comprobar primer argumento o cadena string que devolverá 
+    un numero entero. 
+    */
+        var entero = parseInt(datos);
+
+        console.log("Dato: " + datos + " Tipo: " + typeof(datos));
+        console.log("Float: " + float + " Tipo: " + typeof(float));
+        console.log("Entero: " + entero + " Tipo: " + typeof(entero));
+
+        //document.write("Float: " + float + " " + typeof(float) + "<br>");
+    </script>
+</body>
+</html>

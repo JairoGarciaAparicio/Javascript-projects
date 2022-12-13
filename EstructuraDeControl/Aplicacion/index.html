@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interaccion uy Arrastre de elementos HTML</title>
+    <link rel="shorcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script1.js"></script>
+</head>
+<body>
+    <input style="background-image:url(images/globo2.png);" type="button" class="imagen" draggable="true" value="arrastra" id="arrastra"
+    ondragstart="inicio()" ondragend="fin()">
+
+    <div id="contenedor" ondragleave="leave()" ondragover="over()" ondrop="drop()"><img src="images/papelera.png" alt=""></div>
+</body>
+</html> 
