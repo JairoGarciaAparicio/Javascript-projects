@@ -1,0 +1,120 @@
+body {
+    background-image: url("https://www.viajaraitalia.com/wp-content/uploads/2012/05/Coliseo-de-Roma-abril-2007-1024x601.jpg");
+    font-family: Arial;
+    font-size: 16px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*width: 85%;
+    margin-left: 9%;*/
+}
+
+.header1 {
+    font-family: Times New Roman;
+    font-size: 40px;
+    width: 400px;
+    height: 150px;
+    border: 3px solid blue;
+    border-radius: 25px;
+    box-shadow: 20px 10px red;
+    color: gold;
+    margin: auto;
+    text-align: center;
+    line-height: 75px;
+    background-image: url("https://www.renfe-sncf.com/es-es/blog/PublishingImages/nimes-coliseo-romano/nimes_coliseo_romano_03.png");
+    /*background-position: center; se como se centra la imagen, pero bajo mi criterio queda peor*/
+    margin-bottom: 35px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+nav {
+    height: 100%;
+    width: 200px;
+    background-image: url("https://www.arteguias.com/imagenes/templocordoba.jpg");
+    background-size: cover;
+    border: 4px solid yellow;
+    border-radius: 10px;
+    float: left;    
+
+}
+
+section {
+    width: 700px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+article {
+    background-color: #ccffcc;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 5px solid green;
+    border-radius: 10px;
+
+}
+
+.img1 {
+    width: 80px;
+    height: 60px;
+    float: left;
+
+
+}
+
+aside {
+    height: 100%;
+    background: radial-gradient(#6699ff, #ffffcc, green);
+    border: 4px solid orange;
+    border-radius: 10px;
+    float: right;
+
+
+}
+
+.img2 {
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+
+}
+
+footer {
+    background-color: pink;
+    font-size: 18px;
+    font-family: Helvetica;
+    border: 1px solid red;
+    height: 40px;
+    margin-top: 5px;
+    font-style: bold;
+    clear: left;
+}
+
+span {
+    font-family: Times;
+    font-style: oblique;
+    font-size: 25px;
+    color: red;
+}
+
+.header2 {
+    background-color: orange;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.header3 {
+    background-color: orange;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-align: center;
+
+}
